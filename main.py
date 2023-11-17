@@ -18,9 +18,9 @@ from IPython.core.display import HTML
 # torch.manual_seed(manualSeed)
 # torch.use_deterministic_algorithms(True)
 
-dataroot = "data/celeba"
+dataroot = "../../datasets/celeba"
 
-workers = 2
+workers = 0
 
 batch_size = 128
 
